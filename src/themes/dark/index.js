@@ -1,0 +1,1 @@
+export { themeDark } from "./dark";
