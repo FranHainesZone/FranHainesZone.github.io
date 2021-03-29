@@ -32,7 +32,7 @@ const getForegroundCircle = (theme) => {
     z-index: 2;
     height: 200px;
     width: 200px;
-    @media (min-width: 1200px) {
+    @media (min-width: 992px) {
       position: relative;
       mask: radial-gradient(transparent 99px, ${theme.circleForeground} 100px);
       top: 250px;
@@ -58,7 +58,7 @@ const getBackgroundCircle = (theme) => {
     height: 200px;
     border-radius: 50%;
     z-index: 1;
-    @media (min-width: 1200px) {
+    @media (min-width: 992px) {
       position: relative;
       top: -310px;
       left: 30px;
@@ -74,14 +74,14 @@ const getTriangle = (theme) => {
     height: 0;
     border-left: 100px solid transparent;
     border-right: 100px solid transparent;
-    left: 0px;
+    left: -100px;
     top: 350px;
     mix-blend-mode: overlay;
     transform: rotate(90deg);
     position: absolute;
     border-bottom: 150px solid ${theme.triangle};
     z-index: 3;
-    @media (min-width: 1200px) {
+    @media (min-width: 992px) {
       position: relative;
       top: -275px;
       left: 10px;
@@ -95,14 +95,27 @@ const getTriangle = (theme) => {
 
 const getTextWrapper = (theme) => {
   return css`
+    z-index: 10;
     max-width: 500px;
     color: ${theme.body};
+    margin-top: 0;
+    @media (min-width: 992px) {
+      margin-top: -25%;
+      align-self: center;
+    }
+    p {
+      font-size: 1.5rem;
+      @media (min-width: 992px) {
+        font-size: 1rem;
+      }
+    }
   `;
 };
 
 const getHeroWrapper = () => {
   return css`
-    height: 100%;
+    height: 100vh;
+
     @keyframes hue-rotation {
       100% {
         filter: hue-rotate(360deg);

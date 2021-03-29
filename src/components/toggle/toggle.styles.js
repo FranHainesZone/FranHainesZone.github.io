@@ -6,7 +6,7 @@ const getLabelCss = (theme) => {
     padding: 0;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 0%;
     transform: translate(-50%, -50%);
     display: inline-block;
     width: 55px;
@@ -16,6 +16,9 @@ const getLabelCss = (theme) => {
     border: 0.125rem #ffffff solid;
     transition: background 0.25s ease-in-out;
     cursor: pointer;
+    @media (min-width: 992px) {
+      left: 50%;
+    }
 
     &::before {
       content: "";

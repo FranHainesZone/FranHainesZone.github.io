@@ -12,7 +12,7 @@ const pinkDark = "#ff58ae";
 const pinkDarker = "#B05589";
 
 // Orange
-const orange = "#be4b02";
+const orange = "#ff9650";
 
 // Purple
 const purpleLight = "#3f51b5";

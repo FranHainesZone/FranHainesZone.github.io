@@ -46,7 +46,7 @@ export const Hero = () => {
                   I love being outdoors - I'm really into running, cycling and
                   skateboarding. I also love video games (PlayStation fo' life).
                   In a post-pandemic world you can usually find me at gigs in
-                  and around Bristol, kinda like the ginger version of Big Jeff.
+                  and around Bristol.
                 </p>
               </div>
 
@@ -54,14 +54,14 @@ export const Hero = () => {
                 <div
                   css={foregroundCircle}
                   style={{
-                    marginRight: `calc(-${x}px * 0.03)`,
+                    marginLeft: `calc(-${x}px * 0.03)`,
                     marginTop: `calc(-${y}px * 0.03)`,
                   }}
                 ></div>
                 <div
                   css={backgroundCircle}
                   style={{
-                    marginLeft: `calc(-${x}px * 0.01)`,
+                    marginRight: `calc(-${x}px * 0.01)`,
                     marginBottom: `calc(-${y}px * 0.01)`,
                   }}
                 ></div>
