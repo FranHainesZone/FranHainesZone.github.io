@@ -14,6 +14,11 @@ const getContainerCss = (theme) => {
     display: inline-block;
     text-decoration: none;
     overflow: hidden;
+
+    @media (min-width: 1200px) {
+      padding-left: 30px;
+    }
+
     &::before {
       position: absolute;
       content: attr(data-content);

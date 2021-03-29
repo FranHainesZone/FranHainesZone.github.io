@@ -22,11 +22,11 @@ export const Hero = () => {
   let { x, y } = useMousePosition();
 
   return (
-    <Container>
-      <section>
+    <section css={heroWrapper}>
+      <Container>
         <Row>
           <Col>
-            <div css={heroWrapper} className="d-flex">
+            <div className="d-flex">
               <div css={textWrapper}>
                 <h1 css={h1}>
                   Hi there, I'm Fran.{" "}
@@ -76,8 +76,8 @@ export const Hero = () => {
             </div>
           </Col>
         </Row>
-      </section>
-    </Container>
+      </Container>
+    </section>
   );
 };
 

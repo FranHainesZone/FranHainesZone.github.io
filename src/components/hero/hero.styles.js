@@ -99,10 +99,7 @@ const getTextWrapper = (theme) => {
     max-width: 500px;
     color: ${theme.body};
     margin-top: 0;
-    @media (min-width: 992px) {
-      margin-top: -25%;
-      align-self: center;
-    }
+
     p {
       font-size: 1.5rem;
       @media (min-width: 992px) {
@@ -112,10 +109,10 @@ const getTextWrapper = (theme) => {
   `;
 };
 
-const getHeroWrapper = () => {
+const getHeroWrapper = (theme) => {
   return css`
-    height: 100vh;
-
+    background: ${theme.background};
+    height: 100%;
     @keyframes hue-rotation {
       100% {
         filter: hue-rotate(360deg);

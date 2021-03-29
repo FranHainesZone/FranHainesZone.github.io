@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "@emotion/core";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 
 import { Toggle } from "../toggle";
 import { Nav } from "../nav";
@@ -12,17 +12,19 @@ export const Header = () => {
 
   return (
     <header css={wrapperCss}>
-      <Row>
-        <Col>
-          <Logo />
-        </Col>
-        <Col xs={8} className="d-none d-lg-block">
-          <Nav />
-        </Col>
-        <Col xs={1}>
-          <Toggle />
-        </Col>
-      </Row>
+      <Container fluid>
+        <Row>
+          <Col>
+            <Logo />
+          </Col>
+          <Col xs={8} className="d-none d-lg-block">
+            <Nav />
+          </Col>
+          <Col xs={1}>
+            <Toggle />
+          </Col>
+        </Row>
+      </Container>
     </header>
   );
 };
