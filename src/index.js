@@ -13,7 +13,7 @@ WebFont.load({
       "Fredoka One: 400",
       "Lato: 300,400,700,900",
       "sans-serif",
-      "Baloo Bhai 2: 400,500,600,700,800",
+      "Nunito: 400,500,600,700,800",
     ],
   },
 });

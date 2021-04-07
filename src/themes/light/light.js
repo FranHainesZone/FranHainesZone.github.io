@@ -24,9 +24,9 @@ const green = "#70DCBA";
 
 // Fonts
 const fontLogo = "Fredoka One";
-const fontHeading = "Baloo Bhai 2";
+const fontHeading = "Nunito";
 const fontBody = "Lato";
-const fontNav = "Baloo Bhai 2";
+const fontNav = "Nunito";
 
 const base = {
   background: green,

@@ -112,7 +112,6 @@ const getTextWrapper = (theme) => {
 const getHeroWrapper = (theme) => {
   return css`
     background: ${theme.background};
-    height: 100%;
     @keyframes hue-rotation {
       100% {
         filter: hue-rotate(360deg);

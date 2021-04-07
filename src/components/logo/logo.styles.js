@@ -29,6 +29,9 @@ const getContainerCss = (theme) => {
       white-space: nowrap;
       overflow: hidden;
       transition: width 275ms ease;
+      @media (min-width: 1200px) {
+        padding-left: 30px;
+      }
     }
     &:hover::before {
       width: 100%;
