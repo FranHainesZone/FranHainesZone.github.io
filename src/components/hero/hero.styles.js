@@ -80,7 +80,7 @@ const getTriangle = (theme) => {
     transform: rotate(90deg);
     position: absolute;
     border-bottom: 150px solid ${theme.triangle};
-    z-index: 3;
+    z-index: 5;
     @media (min-width: 992px) {
       position: relative;
       top: -275px;
@@ -95,7 +95,7 @@ const getTriangle = (theme) => {
 
 const getTextWrapper = (theme) => {
   return css`
-    z-index: 10;
+    z-index: 2;
     max-width: 500px;
     color: ${theme.body};
     margin-top: 0;
@@ -112,6 +112,7 @@ const getTextWrapper = (theme) => {
 const getHeroWrapper = (theme) => {
   return css`
     background: ${theme.background};
+    z-index: 1;
     @keyframes hue-rotation {
       100% {
         filter: hue-rotate(360deg);

@@ -11,6 +11,8 @@ export const Work = () => {
     imageCss,
     workCardCss,
     workCardNumberCss,
+    workCardTextCss,
+    workCardTextOverlayCss,
   } = getWorkCss();
 
   return (
@@ -22,6 +24,11 @@ export const Work = () => {
           <Col xs={12} sm={6}>
             <figure css={workCardCss}>
               <span css={workCardNumberCss}>01</span>
+              <div css={workCardTextOverlayCss}></div>
+              <figcaption css={workCardTextCss}>
+                <h3>This is the headlin e</h3>
+                <h4>This is the sub-headline</h4>
+              </figcaption>
               <img
                 src="https://via.placeholder.com/600"
                 alt="alt"
@@ -32,6 +39,11 @@ export const Work = () => {
           <Col xs={12} sm={6}>
             <figure css={workCardCss}>
               <span css={workCardNumberCss}>02</span>
+              <div css={workCardTextOverlayCss}></div>
+              <figcaption css={workCardTextCss}>
+                <h3>This is the headlin e</h3>
+                <h4>This is the sub-headline</h4>
+              </figcaption>
               <img
                 src="https://via.placeholder.com/600"
                 alt="alt"
@@ -42,6 +54,11 @@ export const Work = () => {
           <Col xs={12} sm={6}>
             <figure css={workCardCss}>
               <span css={workCardNumberCss}>03</span>
+              <div css={workCardTextOverlayCss}></div>
+              <figcaption css={workCardTextCss}>
+                <h3>This is the headlin e</h3>
+                <h4>This is the sub-headline</h4>
+              </figcaption>
               <img
                 src="https://via.placeholder.com/600"
                 alt="alt"
