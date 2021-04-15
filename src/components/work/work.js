@@ -3,6 +3,7 @@ import { jsx } from "@emotion/core";
 import { Row, Col, Container } from "react-bootstrap";
 
 import { getWorkCss } from "./work.styles";
+import image from "../../images/hot-air-balloon.png";
 
 export const Work = () => {
   const {
@@ -30,7 +31,7 @@ export const Work = () => {
                 <h4>This is the sub-headline</h4>
               </figcaption>
               <img
-                src="https://via.placeholder.com/600"
+                src={image}
                 alt="alt"
                 css={imageCss}
               />

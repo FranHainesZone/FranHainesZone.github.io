@@ -72,7 +72,7 @@ const getWorkCardTextOverlayCss = () => {
     width: 0;
     margin-bottom: 15px;
     height: calc(100% - 50px);
-    transition: 0.5s ease;
+    transition: 1s ease;
   `;
 };
 
@@ -87,7 +87,7 @@ const getWorkCardNumberCss = () => {
     font-weight: 900;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #fff;
-    transition: color 0.15s cubic-bezier(0.25, 0.25, 0.75, 0.75);
+    transition: color 0.30s cubic-bezier(0.25, 0.25, 0.75, 0.75);
   `;
 };
 
