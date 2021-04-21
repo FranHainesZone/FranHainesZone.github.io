@@ -25,7 +25,17 @@ const getH2Styling = (theme) => {
 const getImageCss = () => {
   return css`
     width: 100%;
+    height: 540px;
     padding-top: 35px;
+    object-fit: cover;
+    z-index: 2;
+    object-position: top center;
+  `;
+};
+
+const getWorkCardLink = () => {
+  return css`
+    background: white;
   `;
 };
 
@@ -49,6 +59,7 @@ const getWorkCardTextCss = () => {
     bottom: 50px;
     color: #fff;
     z-index: 10;
+    padding-right: 50px;
     max-width: 550px;
     h3 {
       font-family: "Nunito";
@@ -67,11 +78,13 @@ const getWorkCardTextOverlayCss = () => {
     bottom: 0;
     left: 15px;
     right: 0;
-    background: rgba(52, 180, 140, 0.8);
+    background-image: linear-gradient(120deg, #eaee44, #33d0ff);
+    opacity: 0.9;
     overflow: hidden;
     width: 0;
     margin-bottom: 15px;
     height: calc(100% - 50px);
+    z-index: 10;
     transition: 1s ease;
   `;
 };
@@ -87,7 +100,8 @@ const getWorkCardNumberCss = () => {
     font-weight: 900;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #fff;
-    transition: color 0.30s cubic-bezier(0.25, 0.25, 0.75, 0.75);
+    transition: color 0.3s cubic-bezier(0.25, 0.25, 0.75, 0.75);
+    z-index: 11;
   `;
 };
 
@@ -96,6 +110,7 @@ export const getWorkCss = () => ({
   h2Styling: getH2Styling,
   imageCss: getImageCss,
   workCardCss: getWorkCardCss,
+  workCardLink: getWorkCardLink,
   workCardNumberCss: getWorkCardNumberCss,
   workCardTextCss: getWorkCardTextCss,
   workCardTextOverlayCss: getWorkCardTextOverlayCss,
