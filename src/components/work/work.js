@@ -35,7 +35,8 @@ export const Work = () => {
                 <figcaption css={workCardTextCss}>
                   <h3>Zone Website</h3>
                   <h4>
-                    A fun project with which we wanted a lot of interactivity.
+                    A rebuild of the Zone website - we wanted to utilise
+                    interesting interaction throughout.
                   </h4>
                 </figcaption>
                 <img src={zoneWebsite} alt="alt" css={imageCss} />
@@ -63,7 +64,8 @@ export const Work = () => {
               <figcaption css={workCardTextCss}>
                 <h3>MovieMania</h3>
                 <h4>
-                  A side project built with The Movie Database API and React.
+                  A personal project built with The Movie Database API and
+                  React.
                 </h4>
               </figcaption>
               <img src={movieMania} alt="alt" css={imageCss} />
@@ -75,7 +77,7 @@ export const Work = () => {
               <div css={workCardTextOverlayCss}></div>
               <figcaption css={workCardTextCss}>
                 <h3>Giphy Search</h3>
-                <h4>A search app built with the Giphy API and React.</h4>
+                <h4>A search app that utilises the Giphy API and React.</h4>
               </figcaption>
               <img src={giphy} alt="alt" css={imageCss} />
             </figure>
@@ -87,8 +89,8 @@ export const Work = () => {
               <figcaption css={workCardTextCss}>
                 <h3>Personal Assistant</h3>
                 <h4>
-                  I built in-browser personal assistant app using the Speech
-                  Recognition API and JS.
+                  A web app built using the SpeechRecognition and Speech-to-Text
+                  APIs.
                 </h4>
               </figcaption>
               <img src={personalAssistant} alt="alt" css={imageCss} />

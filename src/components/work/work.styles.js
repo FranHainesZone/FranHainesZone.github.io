@@ -35,13 +35,19 @@ const getImageCss = () => {
 
 const getWorkCardLink = () => {
   return css`
-    background: white;
+    // nothing here yet
   `;
 };
 
 const getWorkCardCss = () => {
   return css`
     color: transparent;
+    background: rgb(34, 184, 137);
+    background: linear-gradient(
+      0deg,
+      rgba(34, 184, 137, 1) 93.5%,
+      rgba(2, 0, 36, 0) 93.5%
+    );
     cursor: pointer;
     &:hover span {
       color: white;
@@ -98,6 +104,7 @@ const getWorkCardNumberCss = () => {
     z-index: 10;
     font-family: "Lato";
     font-weight: 900;
+    background: transparent;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #fff;
     transition: color 0.3s cubic-bezier(0.25, 0.25, 0.75, 0.75);
