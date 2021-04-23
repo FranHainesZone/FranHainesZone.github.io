@@ -111,7 +111,7 @@ const getTextWrapper = (theme) => {
 
 const getHeroWrapper = (theme) => {
   return css`
-    background: ${theme.background};
+    background: ${theme.backgroundVariant1};
     z-index: 1;
     @keyframes hue-rotation {
       100% {

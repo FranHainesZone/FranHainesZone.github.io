@@ -1,9 +1,9 @@
 import { css } from "@emotion/core";
 
-const getContainerCss = () => {
+const getContainerCss = (theme) => {
   return css`
     position: absolute;
-    background-color: #3f51b5;
+    background-color: ${theme.backgroundVariant2};
     width: 100%;
     padding: 50px 0px;
     z-index: 2;
@@ -39,14 +39,14 @@ const getWorkCardLink = () => {
   `;
 };
 
-const getWorkCardCss = () => {
+const getWorkCardCss = (theme) => {
   return css`
     color: transparent;
     background: rgb(34, 184, 137);
     background: linear-gradient(
       0deg,
-      rgba(34, 184, 137, 1) 93.5%,
-      rgba(2, 0, 36, 0) 93.5%
+      ${theme.backgroundGradient1} 93.5%,
+      ${theme.backgroundGradient2} 93.5%
     );
     cursor: pointer;
     &:hover span {
@@ -84,7 +84,12 @@ const getWorkCardTextOverlayCss = () => {
     bottom: 0;
     left: 15px;
     right: 0;
-    background-image: linear-gradient(120deg, #eaee44, #33d0ff);
+    background: rgb(244, 135, 66);
+    background: linear-gradient(
+      156deg,
+      rgba(244, 135, 66, 1) 0%,
+      rgba(255, 88, 174, 1) 100%
+    );
     opacity: 0.9;
     overflow: hidden;
     width: 0;

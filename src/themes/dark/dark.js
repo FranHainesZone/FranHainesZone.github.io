@@ -1,7 +1,7 @@
 // Colours
 // Basic
 const white = "#FFFFFF";
-const black = "#404049";
+const black = "#2f2f38";
 
 // Blue
 const blueDark = "#3e5a98";
@@ -16,6 +16,7 @@ const orange = "#ff9650";
 
 // Purple
 const purpleLight = "#3f51b5";
+const purpleDark = "#1f3a76";
 
 // Yellow
 const yellow = "#fafbb2;";
@@ -26,9 +27,9 @@ const greenDark = "#57ad92";
 
 // Fonts
 const fontLogo = "Fredoka One";
-const fontHeading = "Baloo Bhai 2";
+const fontHeading = "Nunito";
 const fontBody = "Lato";
-const fontNav = "Baloo Bhai 2";
+const fontNav = "Nunito";
 
 const base = {
   background: black,
@@ -59,4 +60,17 @@ const shapes = {
   triangle: purpleLight,
 };
 
-export const themeDark = { ...base, ...toggle, ...links, ...shapes };
+const backgrounds = {
+  backgroundVariant1: black,
+  backgroundVariant2: purpleDark,
+  backgroundGradient1: black,
+  backgroundGradient2: purpleDark,
+};
+
+export const themeDark = {
+  ...base,
+  ...toggle,
+  ...links,
+  ...shapes,
+  ...backgrounds,
+};

@@ -21,6 +21,7 @@ const yellow = "#fbde0d";
 
 // Green
 const green = "#70DCBA";
+const greenDark = "#22b888";
 
 // Fonts
 const fontLogo = "Fredoka One";
@@ -29,7 +30,6 @@ const fontBody = "Lato";
 const fontNav = "Nunito";
 
 const base = {
-  background: green,
   colorLogo: purpleLight,
   colorLogoHover: purpleDark,
   colorTagline: orange,
@@ -57,4 +57,17 @@ const shapes = {
   triangle: purpleLight,
 };
 
-export const themeLight = { ...base, ...toggle, ...links, ...shapes };
+const backgrounds = {
+  backgroundVariant1: green,
+  backgroundVariant2: purpleLight,
+  backgroundGradient1: greenDark,
+  backgroundGradient2: purpleLight,
+};
+
+export const themeLight = {
+  ...base,
+  ...toggle,
+  ...links,
+  ...shapes,
+  ...backgrounds,
+};

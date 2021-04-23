@@ -53,9 +53,9 @@ export const Hero = () => {
                   I love being outdoors - I'm really into running, cycling and
                   swimming. I've ran a handful of half marathons, a full
                   marathon and I'm doing my first Triathlon later this year. I
-                  also love video games (Switch and Playstation) and reading
-                  (mainly feminism, sociology and sci-fi). In a post-pandemic
-                  world you can usually find me at gigs in and around Bristol.
+                  also love video games (Switch and PS4) and reading (mainly
+                  feminism, sociology and tech). In a post-pandemic world you
+                  can usually find me at gigs in and around Bristol.
                 </p>
               </div>
 
