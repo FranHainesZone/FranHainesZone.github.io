@@ -1,20 +1,20 @@
 {
   "main.css": "/portfolio/static/css/main.8b1d7a64.chunk.css",
-  "main.js": "/portfolio/static/js/main.008c5cf9.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.008c5cf9.chunk.js.map",
+  "main.js": "/portfolio/static/js/main.4b285681.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.4b285681.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.53ebc025.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.53ebc025.js.map",
   "static/css/2.d64aa802.chunk.css": "/portfolio/static/css/2.d64aa802.chunk.css",
   "static/js/2.9f473bff.chunk.js": "/portfolio/static/js/2.9f473bff.chunk.js",
   "static/js/2.9f473bff.chunk.js.map": "/portfolio/static/js/2.9f473bff.chunk.js.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.bac9f15b8b52819ec652ee63c9a9abc1.js": "/portfolio/precache-manifest.bac9f15b8b52819ec652ee63c9a9abc1.js",
+  "precache-manifest.f2315ac22f2645a12de387ce766c7abd.js": "/portfolio/precache-manifest.f2315ac22f2645a12de387ce766c7abd.js",
   "service-worker.js": "/portfolio/service-worker.js",
   "static/css/2.d64aa802.chunk.css.map": "/portfolio/static/css/2.d64aa802.chunk.css.map",
   "static/css/main.8b1d7a64.chunk.css.map": "/portfolio/static/css/main.8b1d7a64.chunk.css.map",
-  "static/media/giphy.svg": "/portfolio/static/media/giphy.0af99a5d.svg",
-  "static/media/hot-air-balloon.svg": "/portfolio/static/media/hot-air-balloon.f1f42f45.svg",
-  "static/media/movie-mania.svg": "/portfolio/static/media/movie-mania.86536bd5.svg",
-  "static/media/personal-assistant.svg": "/portfolio/static/media/personal-assistant.f5950f63.svg",
-  "static/media/zone-website.svg": "/portfolio/static/media/zone-website.cf7bc218.svg"
+  "static/media/giphy.svg": "/portfolio/static/media/giphy.3d9b2ea1.svg",
+  "static/media/hot-air-balloon.svg": "/portfolio/static/media/hot-air-balloon.21eea559.svg",
+  "static/media/movie-mania.svg": "/portfolio/static/media/movie-mania.f5ea2225.svg",
+  "static/media/personal-assistant.svg": "/portfolio/static/media/personal-assistant.66fac376.svg",
+  "static/media/zone-website.svg": "/portfolio/static/media/zone-website.150f97ba.svg"
 }
