@@ -11,10 +11,12 @@ const pinkDark = "#ff58ae";
 
 // Orange
 const orange = "#be4b02";
+const orangeGradient = "#f48642";
 
 // Purple
 const purpleLight = "#3f51b5";
 const purpleDark = "#263377";
+const pinkGradient = "#ff58ae";
 
 // Yellow
 const yellow = "#fbde0d";
@@ -62,6 +64,8 @@ const backgrounds = {
   backgroundVariant2: purpleLight,
   backgroundGradient1: greenDark,
   backgroundGradient2: purpleLight,
+  backgroundOverlay1: orangeGradient,
+  backgroundOverlay2: pinkGradient,
 };
 
 export const themeLight = {

@@ -100,8 +100,12 @@ const getTextWrapper = (theme) => {
     color: ${theme.body};
     margin-top: 0;
 
+    a {
+      text-decoration: underline;
+    }
+
     p {
-      font-size: 1.5rem;
+      font-size: 2rem;
       @media (min-width: 992px) {
         font-size: 1rem;
       }

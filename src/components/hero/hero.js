@@ -45,9 +45,32 @@ export const Hero = () => {
                   living anywhere else.
                 </p>
                 <p>
-                  I work at Zone and I'm currently working with Vue, CSS and JS.
-                  I love my job and try to give back to the community by
-                  mentoring at both Codebar and a local Bristol high school.
+                  I work at{" "}
+                  <a
+                    href="http://zonedigital.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Zone
+                  </a>{" "}
+                  and I'm currently working with Vue, CSS and JS. I love my job
+                  and try to give back to the community by mentoring at both{" "}
+                  <a
+                    href="http://codebar.io/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Codebar
+                  </a>{" "}
+                  and a local Bristol school through{" "}
+                  <a
+                    href="https://technologyvolunteers.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Technology Volunteers
+                  </a>
+                  .
                 </p>
                 <p>
                   I love being outdoors - I'm really into running, cycling and

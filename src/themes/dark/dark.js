@@ -65,6 +65,8 @@ const backgrounds = {
   backgroundVariant2: purpleDark,
   backgroundGradient1: black,
   backgroundGradient2: purpleDark,
+  backgroundOverlay1: green,
+  backgroundOverlay2: greenDark,
 };
 
 export const themeDark = {

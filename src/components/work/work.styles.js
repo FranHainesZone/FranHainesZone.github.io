@@ -78,7 +78,7 @@ const getWorkCardTextCss = () => {
   `;
 };
 
-const getWorkCardTextOverlayCss = () => {
+const getWorkCardTextOverlayCss = (theme) => {
   return css`
     position: absolute;
     bottom: 0;
@@ -87,8 +87,8 @@ const getWorkCardTextOverlayCss = () => {
     background: rgb(244, 135, 66);
     background: linear-gradient(
       156deg,
-      rgba(244, 135, 66, 1) 0%,
-      rgba(255, 88, 174, 1) 100%
+      ${theme.backgroundOverlay1} 0%,
+      ${theme.backgroundOverlay2} 100%
     );
     opacity: 0.9;
     overflow: hidden;
