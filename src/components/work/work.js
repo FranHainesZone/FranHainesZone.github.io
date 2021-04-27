@@ -29,7 +29,11 @@ export const Work = () => {
         <Row>
           <Col xs={12} sm={6}>
             <figure css={workCardCss}>
-              <a href="" css={workCardLink}>
+              <a
+                href="https://zonedigital.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <span css={workCardNumberCss}>01</span>
                 <div css={workCardTextOverlayCss}></div>
                 <figcaption css={workCardTextCss}>
@@ -45,16 +49,22 @@ export const Work = () => {
           </Col>
           <Col xs={12} sm={6}>
             <figure css={workCardCss}>
-              <span css={workCardNumberCss}>02</span>
-              <div css={workCardTextOverlayCss}></div>
-              <figcaption css={workCardTextCss}>
-                <h3>Hot Air Balloon Ride</h3>
-                <h4>
-                  An interactive Three.js side project used to demonstrate my
-                  understanding of WebGL.
-                </h4>
-              </figcaption>
-              <img src={hotAirBalloon} alt="alt" css={imageCss} />
+              <a
+                href="https://vigilant-raman-052bd0.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span css={workCardNumberCss}>02</span>
+                <div css={workCardTextOverlayCss}></div>
+                <figcaption css={workCardTextCss}>
+                  <h3>Hot Air Balloon Ride</h3>
+                  <h4>
+                    An interactive Three.js side project used to demonstrate my
+                    understanding of WebGL.
+                  </h4>
+                </figcaption>
+                <img src={hotAirBalloon} alt="alt" css={imageCss} />
+              </a>
             </figure>
           </Col>
           <Col xs={12} sm={6}>
