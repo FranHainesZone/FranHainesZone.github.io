@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/hot-air-balloon.21eea559.svg"
   },
   {
-    "revision": "6c55e9854314989cd42c",
+    "revision": "3ea1bce62b61489f5266",
     "url": "/portfolio/static/css/main.8b1d7a64.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/js/2.9f473bff.chunk.js"
   },
   {
-    "revision": "6c55e9854314989cd42c",
-    "url": "/portfolio/static/js/main.6c55e985.chunk.js"
+    "revision": "3ea1bce62b61489f5266",
+    "url": "/portfolio/static/js/main.3ea1bce6.chunk.js"
   },
   {
     "revision": "3d9b2ea1eeea8a37d27335fa4da319d3",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/css/2.d64aa802.chunk.css"
   },
   {
-    "revision": "595c1a7af930481d4cf4de0ca5b6feca",
+    "revision": "ebaf0028814b8516a29fab7b34dfd6b8",
     "url": "/portfolio/index.html"
   }
 ];
