@@ -50,11 +50,68 @@ export const Work = () => {
           <Col xs={12} sm={6}>
             <figure css={workCardCss}>
               <a
-                href="https://vigilant-raman-052bd0.netlify.app/"
+                href="https://franhaineszone.github.io/movie-mania/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span css={workCardNumberCss}>02</span>
+                <div css={workCardTextOverlayCss}></div>
+                <figcaption css={workCardTextCss}>
+                  <h3>MovieMania</h3>
+                  <h4>
+                    A personal project built with The Movie Database API and
+                    React.
+                  </h4>
+                </figcaption>
+                <img src={movieMania} alt="alt" css={imageCss} />
+              </a>
+            </figure>
+          </Col>
+          <Col xs={12} sm={6}>
+            <figure css={workCardCss}>
+              <a
+                href="https://franhaineszone.github.io/giphy/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span css={workCardNumberCss}>03</span>
+                <div css={workCardTextOverlayCss}></div>
+                <figcaption css={workCardTextCss}>
+                  <h3>Giphy Search</h3>
+                  <h4>A search app that utilises the Giphy API and React.</h4>
+                </figcaption>
+                <img src={giphy} alt="alt" css={imageCss} />
+              </a>
+            </figure>
+          </Col>
+          <Col xs={12} sm={6}>
+            <figure css={workCardCss}>
+              <a
+                href="https://franhaineszone.github.io/personal-assistant/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span css={workCardNumberCss}>04</span>
+                <div css={workCardTextOverlayCss}></div>
+                <figcaption css={workCardTextCss}>
+                  <h3>Personal Assistant</h3>
+                  <h4>
+                    A web app built using the SpeechRecognition and
+                    Speech-to-Text APIs.
+                  </h4>
+                </figcaption>
+                <img src={personalAssistant} alt="alt" css={imageCss} />
+              </a>
+            </figure>
+          </Col>
+          <Col xs={12} sm={6}>
+            <figure css={workCardCss}>
+              <a
+                href="https://vigilant-raman-052bd0.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span css={workCardNumberCss}>05</span>
                 <div css={workCardTextOverlayCss}></div>
                 <figcaption css={workCardTextCss}>
                   <h3>Hot Air Balloon Ride</h3>
@@ -65,45 +122,6 @@ export const Work = () => {
                 </figcaption>
                 <img src={hotAirBalloon} alt="alt" css={imageCss} />
               </a>
-            </figure>
-          </Col>
-          <Col xs={12} sm={6}>
-            <figure css={workCardCss}>
-              <span css={workCardNumberCss}>03</span>
-              <div css={workCardTextOverlayCss}></div>
-              <figcaption css={workCardTextCss}>
-                <h3>MovieMania</h3>
-                <h4>
-                  A personal project built with The Movie Database API and
-                  React.
-                </h4>
-              </figcaption>
-              <img src={movieMania} alt="alt" css={imageCss} />
-            </figure>
-          </Col>
-          <Col xs={12} sm={6}>
-            <figure css={workCardCss}>
-              <span css={workCardNumberCss}>04</span>
-              <div css={workCardTextOverlayCss}></div>
-              <figcaption css={workCardTextCss}>
-                <h3>Giphy Search</h3>
-                <h4>A search app that utilises the Giphy API and React.</h4>
-              </figcaption>
-              <img src={giphy} alt="alt" css={imageCss} />
-            </figure>
-          </Col>
-          <Col xs={12} sm={6}>
-            <figure css={workCardCss}>
-              <span css={workCardNumberCss}>05</span>
-              <div css={workCardTextOverlayCss}></div>
-              <figcaption css={workCardTextCss}>
-                <h3>Personal Assistant</h3>
-                <h4>
-                  A web app built using the SpeechRecognition and Speech-to-Text
-                  APIs.
-                </h4>
-              </figcaption>
-              <img src={personalAssistant} alt="alt" css={imageCss} />
             </figure>
           </Col>
         </Row>
