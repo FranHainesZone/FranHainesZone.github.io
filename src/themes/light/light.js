@@ -50,6 +50,7 @@ const toggle = {
 
 const links = {
   linksNavUnderline: pinkLight,
+  linksBodyUnderline: green,
 };
 
 const shapes = {
@@ -62,10 +63,12 @@ const shapes = {
 const backgrounds = {
   backgroundVariant1: green,
   backgroundVariant2: purpleLight,
+  backgroundVariant3: pinkLight,
   backgroundGradient1: greenDark,
   backgroundGradient2: purpleLight,
   backgroundOverlay1: orangeGradient,
   backgroundOverlay2: pinkGradient,
+  backgroundBorder: black,
 };
 
 export const themeLight = {

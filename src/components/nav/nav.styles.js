@@ -31,7 +31,6 @@ const getLinkCss = (theme) => {
   return css`
     color: ${theme.body};
     text-decoration: none;
-    font-size: 1.1rem;
     font-weight: 700;
     font-family: ${theme.fontNav};
     position: relative;

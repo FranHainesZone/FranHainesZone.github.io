@@ -10,6 +10,7 @@ const blueDark = "#3e5a98";
 const pinkLight = "#fdd7eb";
 const pinkDark = "#ff58ae";
 const pinkDarker = "#B05589";
+const pinkDarkest = "#5f2141";
 
 // Orange
 const orange = "#ff9650";
@@ -51,6 +52,7 @@ const toggle = {
 
 const links = {
   linksNavUnderline: pinkDarker,
+  linksBodyUnderline: greenDark,
 };
 
 const shapes = {
@@ -63,10 +65,12 @@ const shapes = {
 const backgrounds = {
   backgroundVariant1: black,
   backgroundVariant2: purpleDark,
+  backgroundVariant3: pinkDarkest,
   backgroundGradient1: black,
   backgroundGradient2: purpleDark,
   backgroundOverlay1: green,
   backgroundOverlay2: greenDark,
+  backgroundBorder: white,
 };
 
 export const themeDark = {

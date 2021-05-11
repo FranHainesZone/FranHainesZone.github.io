@@ -2,14 +2,10 @@ import { css } from "@emotion/core";
 
 const getContainerCss = (theme) => {
   return css`
-    position: absolute;
     background-color: ${theme.backgroundVariant2};
     width: 100%;
     padding: 50px 0px;
     z-index: 2;
-    @media (min-width: 992px) {
-      top: 850px;
-    }
   `;
 };
 

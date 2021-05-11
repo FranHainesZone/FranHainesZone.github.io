@@ -18,6 +18,14 @@ const getH2Styling = (theme) => {
   `;
 };
 
+const getShapeContainer = () => {
+  return css`
+    @media (min-width: 992px) {
+      height: 750px;
+    }
+  `;
+};
+
 const getForegroundCircle = (theme) => {
   return css`
     width: 10%;
@@ -131,6 +139,7 @@ export const getHeroCss = () => ({
   triangle: getTriangle,
   heroWrapper: getHeroWrapper,
   textWrapper: getTextWrapper,
+  shapeContainer: getShapeContainer,
   h1: getH1Styling,
   h2: getH2Styling,
 });

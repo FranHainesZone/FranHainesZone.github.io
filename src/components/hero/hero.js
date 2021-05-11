@@ -15,6 +15,7 @@ export const Hero = () => {
     backgroundCircle,
     triangle,
     textWrapper,
+    shapeContainer,
     h1,
     h2,
   } = getHeroCss(theme);
@@ -77,12 +78,22 @@ export const Hero = () => {
                   swimming. I've ran a handful of half marathons, a full
                   marathon and I'm doing my first Triathlon later this year. I
                   also love video games (Switch and PS4) and reading (mainly
-                  feminism, sociology and tech). In a post-pandemic world you
-                  can usually find me at gigs in and around Bristol.
+                  feminism, sociology and tech). I'm also really into music and
+                  have sang in a handful of national choirs in the UK - the most
+                  recent being the{" "}
+                  <a
+                    href="https://www.bbc.co.uk/programmes/profiles/4Kj19qxQxH7lqrD6qBkpRFt/chorus"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    BBC National Chorus of Wales
+                  </a>
+                  . In a post-pandemic world you can usually find me at gigs in
+                  and around Bristol.
                 </p>
               </div>
 
-              <div className="ml-auto">
+              <div className="ml-auto" css={shapeContainer}>
                 <div
                   css={foregroundCircle}
                   style={{

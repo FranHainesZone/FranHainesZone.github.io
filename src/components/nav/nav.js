@@ -14,17 +14,17 @@ export const Nav = () => {
       <ul css={ulCss}>
         <li css={liCss}>
           <a href="/hi" css={linkCss}>
-            Writing
-          </a>
-        </li>
-        <li css={liCss}>
-          <a href="/hi" css={linkCss}>
             Coding
           </a>
         </li>
         <li css={liCss}>
           <a href="/hi" css={linkCss}>
-            Chatting
+            Writing
+          </a>
+        </li>
+        <li css={liCss}>
+          <a href="/hi" css={linkCss}>
+            Let's Chat!
           </a>
         </li>
       </ul>

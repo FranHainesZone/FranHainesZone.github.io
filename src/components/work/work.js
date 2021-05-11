@@ -27,7 +27,7 @@ export const Work = () => {
         <h2 css={h2Styling}>Coding</h2>
 
         <Row>
-          <Col xs={12} sm={6}>
+          <Col md={12} lg={6}>
             <figure css={workCardCss}>
               <a
                 href="https://zonedigital.com/"
@@ -47,7 +47,7 @@ export const Work = () => {
               </a>
             </figure>
           </Col>
-          <Col xs={12} sm={6}>
+          <Col md={12} lg={6}>
             <figure css={workCardCss}>
               <a
                 href="https://franhaineszone.github.io/movie-mania/"
@@ -67,7 +67,7 @@ export const Work = () => {
               </a>
             </figure>
           </Col>
-          <Col xs={12} sm={6}>
+          <Col md={12} lg={6}>
             <figure css={workCardCss}>
               <a
                 href="https://franhaineszone.github.io/giphy/"
@@ -84,7 +84,7 @@ export const Work = () => {
               </a>
             </figure>
           </Col>
-          <Col xs={12} sm={6}>
+          <Col md={12} lg={6}>
             <figure css={workCardCss}>
               <a
                 href="https://franhaineszone.github.io/personal-assistant/"
@@ -104,7 +104,7 @@ export const Work = () => {
               </a>
             </figure>
           </Col>
-          <Col xs={12} sm={6}>
+          <Col md={12} lg={6}>
             <figure css={workCardCss}>
               <a
                 href="https://vigilant-raman-052bd0.netlify.app/"
