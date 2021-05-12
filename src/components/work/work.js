@@ -59,8 +59,8 @@ export const Work = () => {
                 <figcaption css={workCardTextCss}>
                   <h3>MovieMania</h3>
                   <h4>
-                    A personal project built with The Movie Database API and
-                    React.
+                    A personal project that was built a few years ago with The
+                    Movie Database API and React.
                   </h4>
                 </figcaption>
                 <img src={movieMania} alt="alt" css={imageCss} />
@@ -78,7 +78,10 @@ export const Work = () => {
                 <div css={workCardTextOverlayCss}></div>
                 <figcaption css={workCardTextCss}>
                   <h3>Giphy Search</h3>
-                  <h4>A search app that utilises the Giphy API and React.</h4>
+                  <h4>
+                    A fun search app that was built a few years ago and utilises
+                    the Giphy API and React.
+                  </h4>
                 </figcaption>
                 <img src={giphy} alt="alt" css={imageCss} />
               </a>
@@ -96,8 +99,8 @@ export const Work = () => {
                 <figcaption css={workCardTextCss}>
                   <h3>Personal Assistant</h3>
                   <h4>
-                    A web app built using the SpeechRecognition and
-                    Speech-to-Text APIs.
+                    An app built using the SpeechRecognition and Speech-to-Text
+                    APIs.
                   </h4>
                 </figcaption>
                 <img src={personalAssistant} alt="alt" css={imageCss} />
@@ -116,8 +119,8 @@ export const Work = () => {
                 <figcaption css={workCardTextCss}>
                   <h3>Hot Air Balloon Ride</h3>
                   <h4>
-                    An interactive Three.js side project used to demonstrate my
-                    understanding of WebGL.
+                    An interactive Three.js side project used to build upon my
+                    knowledge with WebGL.
                   </h4>
                 </figcaption>
                 <img src={hotAirBalloon} alt="alt" css={imageCss} />

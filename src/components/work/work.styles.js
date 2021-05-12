@@ -1,40 +1,21 @@
 import { css } from "@emotion/core";
 
+// overall component container
 const getContainerCss = (theme) => {
   return css`
     background-color: ${theme.backgroundVariant2};
     width: 100%;
-    padding: 50px 0px;
     z-index: 2;
+    padding: 3.8rem 0 3.5rem;
+
+    @media (min-width: 992px) {
+      padding: 3.8rem 0 3.4rem;
+      font-size: 2.5rem;
+    }
   `;
 };
 
-const getH2Styling = (theme) => {
-  return css`
-    color: white;
-    font-family: ${theme.fontHeading};
-    font-weight: 700;
-    font-size: 3rem;
-  `;
-};
-
-const getImageCss = () => {
-  return css`
-    width: 100%;
-    height: 540px;
-    padding-top: 35px;
-    object-fit: cover;
-    z-index: 2;
-    object-position: top center;
-  `;
-};
-
-const getWorkCardLink = () => {
-  return css`
-    // nothing here yet
-  `;
-};
-
+// article items containers
 const getWorkCardCss = (theme) => {
   return css`
     color: transparent;
@@ -45,6 +26,8 @@ const getWorkCardCss = (theme) => {
       ${theme.backgroundGradient2} 93.5%
     );
     cursor: pointer;
+    &:last-of-type: {
+    }
     &:hover span {
       color: white;
     }
@@ -54,22 +37,70 @@ const getWorkCardCss = (theme) => {
   `;
 };
 
-const getWorkCardTextCss = () => {
+const getH2Styling = (theme) => {
+  return css`
+    color: white;
+    font-family: ${theme.fontHeading};
+    font-weight: 700;
+    font-size: 2rem;
+
+    @media (min-width: 992px) {
+      font-size: 2.5rem;
+    }
+  `;
+};
+
+const getImageCss = () => {
+  return css`
+    width: 100%;
+    height: 540px;
+    padding-top: 2rem;
+    object-fit: cover;
+    z-index: 2;
+    object-position: top center;
+  `;
+};
+
+const getWorkCardLink = (theme) => {
+  return css`
+    font-family: ${theme.fontBody};
+  `;
+};
+
+const getWorkCardTextCss = (theme) => {
   return css`
     position: absolute;
-    left: 50px;
-    bottom: 50px;
+    left: 40px;
+    bottom: 55px;
     color: #fff;
     z-index: 10;
     padding-right: 50px;
+    font-family: ${theme.fontBody};
     max-width: 550px;
+    @media (min-width: 992px) {
+      left: 50px;
+      bottom: 65px;
+    }
     h3 {
-      font-family: "Nunito";
-      font-size: 2.5rem;
+      font-family: ${theme.fontHeading};
+      font-size: 1.5rem;
       font-weight: 700;
+      @media (min-width: 992px) {
+        font-size: 2rem;
+      }
+      @media (min-width: 1200px) {
+        font-size: 2.5rem;
+      }
     }
     h4 {
-      font-family: "Lato";
+      font-family: ${theme.fontBody};
+      font-size: 1rem;
+      @media (min-width: 992px) {
+        font-size: 1.2rem;
+      }
+      @media (min-width: 1200px) {
+        font-size: 1.5rem;
+      }
     }
   `;
 };
@@ -89,21 +120,21 @@ const getWorkCardTextOverlayCss = (theme) => {
     opacity: 0.9;
     overflow: hidden;
     width: 0;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
     height: calc(100% - 50px);
     z-index: 10;
     transition: 1s ease;
   `;
 };
 
-const getWorkCardNumberCss = () => {
+const getWorkCardNumberCss = (theme) => {
   return css`
     font-size: 6rem;
     position: absolute;
     line-height: 6rem;
     left: 50px;
     z-index: 10;
-    font-family: "Lato";
+    font-family: ${theme.fontBody};
     font-weight: 900;
     background: transparent;
     -webkit-text-stroke-width: 2px;

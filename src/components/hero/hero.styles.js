@@ -5,7 +5,10 @@ const getH1Styling = (theme) => {
     font-family: ${theme.fontHeading};
     color: ${theme.colorTagline};
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2rem;
+    @media (min-width: 992px) {
+      font-size: 3rem;
+    }
   `;
 };
 
@@ -14,7 +17,11 @@ const getH2Styling = (theme) => {
     font-family: ${theme.fontHeading};
     color: ${theme.black};
     font-weight: 700;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+    @media (min-width: 992px) {
+      font-size: 3.5rem;
+    }
   `;
 };
 
@@ -106,17 +113,16 @@ const getTextWrapper = (theme) => {
     z-index: 2;
     max-width: 500px;
     color: ${theme.body};
+    font-family: ${theme.fontBody};
     margin-top: 0;
+    padding-bottom: 40px;
 
     a {
       text-decoration: underline;
     }
 
     p {
-      font-size: 2rem;
-      @media (min-width: 992px) {
-        font-size: 1rem;
-      }
+      font-size: 1rem;
     }
   `;
 };

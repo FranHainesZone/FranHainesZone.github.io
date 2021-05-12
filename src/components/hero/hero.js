@@ -42,8 +42,7 @@ export const Hero = () => {
                 <p>
                   Originally from a small town in the West Midlands, I decided
                   to move to Bristol shortly after a stint living in Cardiff.
-                  I've never looked back since and I absolutely cannot imagine
-                  living anywhere else.
+                  I've never looked back since and absolutely love the city.
                 </p>
                 <p>
                   I work at{" "}
@@ -79,17 +78,8 @@ export const Hero = () => {
                   marathon and I'm doing my first Triathlon later this year. I
                   also love video games (Switch and PS4) and reading (mainly
                   feminism, sociology and tech). I'm also really into music and
-                  have sang in a handful of national choirs in the UK - the most
-                  recent being the{" "}
-                  <a
-                    href="https://www.bbc.co.uk/programmes/profiles/4Kj19qxQxH7lqrD6qBkpRFt/chorus"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    BBC National Chorus of Wales
-                  </a>
-                  . In a post-pandemic world you can usually find me at gigs in
-                  and around Bristol.
+                  in a non-pandemic world you can usually find me at gigs in and
+                  around Bristol.
                 </p>
               </div>
 
