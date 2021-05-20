@@ -9,7 +9,7 @@ const getContainerCss = (theme) => {
     padding: 3.8rem 0 3.5rem;
 
     @media (min-width: 992px) {
-      padding: 3.8rem 0 3.4rem;
+      padding: 5.8rem 0 5.4rem;
       font-size: 2.5rem;
     }
   `;
@@ -34,6 +34,14 @@ const getWorkCardCss = (theme) => {
     &:hover div {
       width: calc(100% - 30px);
     }
+
+    @media (min-width: 992px) {
+      margin: 0 30px 30px 0;
+
+      &:hover div {
+        width: calc(100% - 60px);
+      }
+    }
   `;
 };
 
@@ -54,6 +62,7 @@ const getImageCss = () => {
   return css`
     width: 100%;
     height: 540px;
+    padding-left: 5px;
     padding-top: 2rem;
     object-fit: cover;
     z-index: 2;
@@ -70,24 +79,24 @@ const getWorkCardLink = (theme) => {
 const getWorkCardTextCss = (theme) => {
   return css`
     position: absolute;
-    left: 40px;
     bottom: 55px;
     color: #fff;
     z-index: 10;
-    padding-right: 50px;
+    padding: 0 40px;
+    width: 90%;
     font-family: ${theme.fontBody};
     max-width: 550px;
     @media (min-width: 992px) {
-      left: 50px;
+      bottom: 75px;
+    }
+    @media (min-width: 1200px) {
       bottom: 65px;
     }
     h3 {
       font-family: ${theme.fontHeading};
       font-size: 1.5rem;
       font-weight: 700;
-      @media (min-width: 992px) {
-        font-size: 2rem;
-      }
+
       @media (min-width: 1200px) {
         font-size: 2.5rem;
       }
@@ -121,9 +130,14 @@ const getWorkCardTextOverlayCss = (theme) => {
     overflow: hidden;
     width: 0;
     margin-bottom: 1rem;
-    height: calc(100% - 50px);
+    height: calc(100% - 51px);
     z-index: 10;
     transition: 1s ease;
+
+    @media (min-width: 992px) {
+      margin-bottom: 1.8rem;
+      height: calc(100% - 64px);
+    }
   `;
 };
 

@@ -7,7 +7,7 @@ const getContainerCss = (theme) => {
     color: ${theme.body};
     padding: 4rem 0;
     @media (min-width: 992px) {
-      padding: 3.7rem 0 4rem;
+      padding: 5.7rem 0 6rem;
     }
   `;
 };
@@ -21,16 +21,16 @@ const getArticleContainer = () => {
     }
 
     @media (min-width: 992px) {
-      padding: 1.5rem 0;
+      padding: 2.5rem 0;
     }
     &:first-of-type {
       @media (min-width: 992px) {
-        padding: 0.5rem 0 1.5rem;
+        padding: 1.5rem 0 2.5rem;
       }
     }
     &:last-of-type {
       @media (min-width: 992px) {
-        padding: 1.5rem 0 0;
+        padding: 2.5rem 0 0;
       }
     }
   `;

@@ -39,8 +39,8 @@ export const Work = () => {
                 <figcaption css={workCardTextCss}>
                   <h3>Zone Website</h3>
                   <h4>
-                    A rebuild of the Zone website - we wanted to utilise
-                    interesting interaction throughout.
+                    A rebuild of the Zone website, utilising interesting
+                    interaction throughout.
                   </h4>
                 </figcaption>
                 <img src={zoneWebsite} alt="alt" css={imageCss} />
@@ -59,8 +59,8 @@ export const Work = () => {
                 <figcaption css={workCardTextCss}>
                   <h3>MovieMania</h3>
                   <h4>
-                    A personal project that was built a few years ago with The
-                    Movie Database API and React.
+                    A personal project that was built with The Movie Database
+                    API and React.
                   </h4>
                 </figcaption>
                 <img src={movieMania} alt="alt" css={imageCss} />
@@ -79,8 +79,7 @@ export const Work = () => {
                 <figcaption css={workCardTextCss}>
                   <h3>Giphy Search</h3>
                   <h4>
-                    A fun search app that was built a few years ago and utilises
-                    the Giphy API and React.
+                    A fun search app that utilises the Giphy API and React.
                   </h4>
                 </figcaption>
                 <img src={giphy} alt="alt" css={imageCss} />
@@ -119,8 +118,8 @@ export const Work = () => {
                 <figcaption css={workCardTextCss}>
                   <h3>Hot Air Balloon Ride</h3>
                   <h4>
-                    An interactive Three.js side project used to build upon my
-                    knowledge with WebGL.
+                    An interactive Three.js side project used whilst learning
+                    WebGL.
                   </h4>
                 </figcaption>
                 <img src={hotAirBalloon} alt="alt" css={imageCss} />
