@@ -40,12 +40,7 @@ export const Hero = () => {
                 </h1>
                 <h2 css={h2}>A Front-end Developer based in Bristol.</h2>
                 <p>
-                  Originally from a small town in the West Midlands, I decided
-                  to move to Bristol shortly after a stint living in Cardiff.
-                  I've never looked back since and absolutely love the city.
-                </p>
-                <p>
-                  I work at{" "}
+                  I'm a Front-End Developer at{" "}
                   <a
                     href="http://zonedigital.com/"
                     target="_blank"
@@ -53,8 +48,14 @@ export const Hero = () => {
                   >
                     Zone
                   </a>{" "}
-                  and I'm currently working with Vue, CSS and JS. I love my job
-                  and try to give back to the community by mentoring at both{" "}
+                  and currently work with Vue, HTML, CSS and JS. I'm incredibly
+                  fortunate that my time has Zone has given me a range of
+                  experience from different tech stacks to diverse clients. Not
+                  too shabby!
+                </p>
+                <p>
+                  I love my job and try to give back by helping people become
+                  better coders. I mentor with two brilliant initiatives,{" "}
                   <a
                     href="http://codebar.io/"
                     target="_blank"
@@ -62,24 +63,27 @@ export const Hero = () => {
                   >
                     Codebar
                   </a>{" "}
-                  and a local Bristol school through{" "}
+                  and with a Bristol high school through{" "}
                   <a
                     href="https://technologyvolunteers.org/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     Technology Volunteers
-                  </a>
-                  .
+                  </a>{" "}
+                  . I also love to{" "}
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    write
+                  </a>{" "}
+                  by sharing what I've learnt during my time working in the tech
+                  industry.
                 </p>
                 <p>
-                  I love being outdoors - I'm really into running, cycling and
-                  swimming. I've ran a handful of half marathons, a full
-                  marathon and I'm doing my first Triathlon later this year. I
-                  also love video games (Switch and PS4) and reading (mainly
-                  feminism, sociology and tech). I'm also really into music and
-                  in a non-pandemic world you can usually find me at gigs in and
-                  around Bristol.
+                  If you fancy working together in the future, feel free to{" "}
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    give me a hola
+                  </a>
+                  . 👋🏻
                 </p>
               </div>
 

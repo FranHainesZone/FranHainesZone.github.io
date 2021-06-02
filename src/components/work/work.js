@@ -22,7 +22,7 @@ export const Work = () => {
   } = getWorkCss();
 
   return (
-    <section css={containerCss}>
+    <section css={containerCss} id="coding">
       <Container>
         <h2 css={h2Styling}>Coding</h2>
 

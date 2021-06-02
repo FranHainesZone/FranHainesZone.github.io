@@ -31,6 +31,12 @@ const fontHeading = "Nunito";
 const fontBody = "Lato";
 const fontNav = "Nunito";
 
+// Icons
+const iconColor =
+  "invert(23%) sepia(5%) saturate(1108%) hue-rotate(201deg) brightness(95%) contrast(90%)";
+const iconColorHover =
+  "invert(29%) sepia(42%) saturate(2662%) hue-rotate(3deg) brightness(101%) contrast(98%)";
+
 const base = {
   colorLogo: purpleLight,
   colorLogoHover: purpleDark,
@@ -51,6 +57,9 @@ const toggle = {
 const links = {
   linksNavUnderline: pinkLight,
   linksBodyUnderline: green,
+  linksBodyUnderlineSmall: orange,
+  linksIcons: iconColor,
+  linksIconsHover: iconColorHover,
 };
 
 const shapes = {
