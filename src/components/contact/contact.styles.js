@@ -51,6 +51,14 @@ const getIconStyling = (theme) => {
   `;
 };
 
+const getImageWrapperStyling = (theme) => {
+  return css`
+    position: absolute;
+    max-width: 540px;
+    width: 100%;
+  `;
+};
+
 const getSelfPortraitStyling = (theme) => {
   return css`
     width: 100%;
@@ -63,4 +71,5 @@ export const getContactCss = () => ({
   paragraphStyling: getParagraphStyling,
   iconStyling: getIconStyling,
   selfPortraitStyling: getSelfPortraitStyling,
+  imageWrapperStyling: getImageWrapperStyling,
 });

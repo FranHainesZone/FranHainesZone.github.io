@@ -1,13 +1,17 @@
 /** @jsx jsx */
 import { jsx } from "@emotion/core";
 import { Row, Col, Container } from "react-bootstrap";
+
 import selfPortrait from "../../images/self-portrait.svg";
+import shapesFirst from "../../images/shapes-first.svg";
+import shapesSecond from "../../images/shapes-second.svg";
+import shapesThird from "../../images/shapes-third.svg";
 import iconTwitter from "../../images/icon-twitter.svg";
 import iconLinkedin from "../../images/icon-linkedin.svg";
 import iconGithub from "../../images/icon-github.svg";
 import iconCodepen from "../../images/icon-codepen.svg";
-
 import { getContactCss } from "./contact.styles";
+import useMousePosition from "../../hooks/useMousePosition";
 
 export const Contact = () => {
   const {
@@ -16,7 +20,10 @@ export const Contact = () => {
     paragraphStyling,
     iconStyling,
     selfPortraitStyling,
+    imageWrapperStyling,
   } = getContactCss();
+
+  let { x, y } = useMousePosition();
 
   return (
     <section css={containerCss} id="lets-chat">
@@ -53,6 +60,33 @@ export const Contact = () => {
             </div>
           </Col>
           <Col sm={12} md={6}>
+            <img
+              src={shapesFirst}
+              alt=""
+              css={imageWrapperStyling}
+              style={{
+                marginLeft: `calc(-${x}px * 0.01)`,
+                marginTop: `calc(-${y}px * 0.01)`,
+              }}
+            />
+            <img
+              src={shapesSecond}
+              alt=""
+              css={imageWrapperStyling}
+              style={{
+                marginLeft: `calc(-${x}px * 0.02)`,
+                marginTop: `calc(-${y}px * 0.02)`,
+              }}
+            />
+            <img
+              src={shapesThird}
+              alt=""
+              css={imageWrapperStyling}
+              style={{
+                marginLeft: `calc(-${x}px * 0.015)`,
+                marginTop: `calc(-${y}px * 0.015)`,
+              }}
+            />
             <img src={selfPortrait} alt="" css={selfPortraitStyling} />
           </Col>
         </Row>

@@ -40,7 +40,13 @@ export const Hero = () => {
                 </h1>
                 <h2 css={h2}>A Front-end Developer based in Bristol.</h2>
                 <p>
-                  I'm a Front-End Developer at{" "}
+                  What I love about working in tech is the power it has to shape
+                  the world for the better, providing endless opportunities to
+                  those who both use and work in it. I like to work on products
+                  and with people who encompass this too.
+                </p>
+                <p>
+                  I'm currently a developer at{" "}
                   <a
                     href="http://zonedigital.com/"
                     target="_blank"
@@ -48,14 +54,8 @@ export const Hero = () => {
                   >
                     Zone
                   </a>{" "}
-                  and currently work with Vue, HTML, CSS and JS. I'm incredibly
-                  fortunate that my time has Zone has given me a range of
-                  experience from different tech stacks to diverse clients. Not
-                  too shabby!
-                </p>
-                <p>
-                  I love my job and try to give back by helping people become
-                  better coders. I mentor with two brilliant initiatives,{" "}
+                  and in my spare time I try to give back by helping people
+                  become better coders. I mentor with two brilliant initiatives,{" "}
                   <a
                     href="http://codebar.io/"
                     target="_blank"
