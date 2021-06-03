@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "d603f8bfba0b888c46bed6ec4bed3133",
-    "url": "/portfolio/static/media/article-learning-by-teaching.d603f8bf.jpg"
+    "revision": "a2897b0b2f3c73b60d39347f4f9b4da9",
+    "url": "/portfolio/static/media/article-100-women-panel.a2897b0b.jpeg"
   },
   {
-    "revision": "2bfc94fc027ebadf37ff",
+    "revision": "7db3db67f2ed4823e2eb",
     "url": "/portfolio/static/css/main.6991c52c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/icon-codepen.762359ad.svg"
   },
   {
-    "revision": "087f0816bafeb025f1df",
-    "url": "/portfolio/static/js/2.087f0816.chunk.js"
+    "revision": "6b377d4f64947795ed76",
+    "url": "/portfolio/static/js/2.6b377d4f.chunk.js"
   },
   {
     "revision": "21eea559d9a6659b28b662884f23438e",
@@ -40,12 +40,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/zone-website.150f97ba.svg"
   },
   {
-    "revision": "2bfc94fc027ebadf37ff",
-    "url": "/portfolio/static/js/main.2bfc94fc.chunk.js"
+    "revision": "d603f8bfba0b888c46bed6ec4bed3133",
+    "url": "/portfolio/static/media/article-learning-by-teaching.d603f8bf.jpg"
   },
   {
-    "revision": "a2897b0b2f3c73b60d39347f4f9b4da9",
-    "url": "/portfolio/static/media/article-100-women-panel.a2897b0b.jpeg"
+    "revision": "7db3db67f2ed4823e2eb",
+    "url": "/portfolio/static/js/main.7db3db67.chunk.js"
   },
   {
     "revision": "ec7f36a324fe4d6adc581e9549b63103",
@@ -56,8 +56,20 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/article-women-of-silicon-roundabout.d48f0fc5.jpeg"
   },
   {
-    "revision": "35fed4332bfae2d46cd296a27792d290",
-    "url": "/portfolio/static/media/self-portrait.35fed433.svg"
+    "revision": "e7f7ddb510d4ee26af9ba47acaeb6bfa",
+    "url": "/portfolio/static/media/self-portrait.e7f7ddb5.svg"
+  },
+  {
+    "revision": "313dec4e638360f3bca630f16152e95a",
+    "url": "/portfolio/static/media/shapes-first.313dec4e.svg"
+  },
+  {
+    "revision": "ab6ce540426b8165b8a38243e0df9c91",
+    "url": "/portfolio/static/media/shapes-second.ab6ce540.svg"
+  },
+  {
+    "revision": "060b1fb6749682573015fe9825207490",
+    "url": "/portfolio/static/media/shapes-third.060b1fb6.svg"
   },
   {
     "revision": "631cd5664eb1d4a27681a21ca4ad6126",
@@ -72,11 +84,11 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/icon-github.1bb02710.svg"
   },
   {
-    "revision": "087f0816bafeb025f1df",
+    "revision": "6b377d4f64947795ed76",
     "url": "/portfolio/static/css/2.d64aa802.chunk.css"
   },
   {
-    "revision": "736fca3a877994c484fb8d7c8653d00f",
+    "revision": "1713bbadeca0375a95aa6a097dd3e896",
     "url": "/portfolio/index.html"
   }
 ];
