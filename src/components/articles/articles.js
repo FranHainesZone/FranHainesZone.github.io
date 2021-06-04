@@ -33,7 +33,11 @@ export const Articles = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={learningByTeaching} css={imageCss} alt="" />
+                <img
+                  src={learningByTeaching}
+                  css={imageCss}
+                  alt="Fran on a work call"
+                />
               </a>
             </Col>
             <Col sm={12} md={8} css={textContainerStyling}>
@@ -79,7 +83,11 @@ export const Articles = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={bbcPanel} css={imageCss} alt="" />
+                <img
+                  src={bbcPanel}
+                  css={imageCss}
+                  alt="Fran sat with her laptop on a sofa"
+                />
               </a>
             </Col>
             <Col sm={12} md={8} css={textContainerStyling}>
@@ -125,7 +133,11 @@ export const Articles = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={zoneWIT} css={imageCss} alt="" />
+                <img
+                  src={zoneWIT}
+                  css={imageCss}
+                  alt="Fran wearing sunglasses outside the Bath Royal Crescent"
+                />
               </a>
             </Col>
             <Col sm={12} md={8} css={textContainerStyling}>
@@ -170,7 +182,11 @@ export const Articles = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={techConference} css={imageCss} alt="" />
+                <img
+                  src={techConference}
+                  css={imageCss}
+                  alt="Women of Silicon Roundabout Stage"
+                />
               </a>
             </Col>
             <Col sm={12} md={8} css={textContainerStyling}>

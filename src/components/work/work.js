@@ -42,7 +42,11 @@ export const Work = () => {
                     interaction throughout.
                   </h4>
                 </figcaption>
-                <img src={zoneWebsite} alt="alt" css={imageCss} />
+                <img
+                  src={zoneWebsite}
+                  alt="Zone Website viewed on a laptop"
+                  css={imageCss}
+                />
               </a>
             </figure>
           </Col>
@@ -62,7 +66,11 @@ export const Work = () => {
                     API and React.
                   </h4>
                 </figcaption>
-                <img src={movieMania} alt="alt" css={imageCss} />
+                <img
+                  src={movieMania}
+                  alt="Movie Search app viewed on a laptop"
+                  css={imageCss}
+                />
               </a>
             </figure>
           </Col>
@@ -81,7 +89,11 @@ export const Work = () => {
                     A fun search app that utilises the Giphy API and React.
                   </h4>
                 </figcaption>
-                <img src={giphy} alt="alt" css={imageCss} />
+                <img
+                  src={giphy}
+                  alt="Giphy web app viewed on a laptop"
+                  css={imageCss}
+                />
               </a>
             </figure>
           </Col>
@@ -101,7 +113,11 @@ export const Work = () => {
                     APIs.
                   </h4>
                 </figcaption>
-                <img src={personalAssistant} alt="alt" css={imageCss} />
+                <img
+                  src={personalAssistant}
+                  alt="Personal Assistant app viewed on a laptop"
+                  css={imageCss}
+                />
               </a>
             </figure>
           </Col>
@@ -121,7 +137,11 @@ export const Work = () => {
                     WebGL.
                   </h4>
                 </figcaption>
-                <img src={hotAirBalloon} alt="alt" css={imageCss} />
+                <img
+                  src={hotAirBalloon}
+                  alt="3D app of a hot air balloon"
+                  css={imageCss}
+                />
               </a>
             </figure>
           </Col>

@@ -62,7 +62,7 @@ export const Contact = () => {
           <Col sm={12} md={6}>
             <img
               src={shapesFirst}
-              alt=""
+              alt="Shapes"
               css={imageWrapperStyling}
               style={{
                 marginLeft: `calc(-${x}px * 0.01)`,
@@ -71,7 +71,7 @@ export const Contact = () => {
             />
             <img
               src={shapesSecond}
-              alt=""
+              alt="Shapes"
               css={imageWrapperStyling}
               style={{
                 marginLeft: `calc(-${x}px * 0.02)`,
@@ -80,14 +80,18 @@ export const Contact = () => {
             />
             <img
               src={shapesThird}
-              alt=""
+              alt="Shapes"
               css={imageWrapperStyling}
               style={{
                 marginLeft: `calc(-${x}px * 0.015)`,
                 marginTop: `calc(-${y}px * 0.015)`,
               }}
             />
-            <img src={selfPortrait} alt="" css={selfPortraitStyling} />
+            <img
+              src={selfPortrait}
+              alt="Self Portrait of Fran"
+              css={selfPortraitStyling}
+            />
           </Col>
         </Row>
       </Container>
