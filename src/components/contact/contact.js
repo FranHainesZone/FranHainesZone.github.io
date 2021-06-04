@@ -38,9 +38,9 @@ export const Contact = () => {
                 touch for a chat!
               </p>
               <p>
-                <a href="#">Send me an email</a> at hello@franhaines.com or
-                check out my social channels. Feel free to have a stalk of some
-                of my dev projects too. 👀{" "}
+                <a href="mailto:hello@franhaines.com">Send me an email</a> at
+                hello@franhaines.com or check out my social channels. Feel free
+                to have a stalk of some of my dev projects too. 👀{" "}
               </p>
             </div>
 

@@ -154,6 +154,7 @@ export const Articles = () => {
                 css={linkStyling}
                 href="https://thisiszone.medium.com/zone-women-in-tech-fran-haines-66d71e88dbc3"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Read more...
               </a>

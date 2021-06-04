@@ -72,7 +72,7 @@ export const Hero = () => {
                     Technology Volunteers
                   </a>{" "}
                   . I also love to{" "}
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="#writing" target="_blank" rel="noopener noreferrer">
                     write
                   </a>{" "}
                   by sharing what I've learnt during my time working in the tech
@@ -80,7 +80,11 @@ export const Hero = () => {
                 </p>
                 <p>
                   If you fancy working together in the future, feel free to{" "}
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="#lets-chat"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     give me a hola
                   </a>
                   . 👋🏻

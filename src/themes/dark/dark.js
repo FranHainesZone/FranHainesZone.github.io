@@ -7,7 +7,6 @@ const black = "#2f2f38";
 const blueDark = "#3e5a98";
 
 // Pink
-const pinkLight = "#fdd7eb";
 const pinkDark = "#ff58ae";
 const pinkDarker = "#B05589";
 const pinkDarkest = "#5f2141";

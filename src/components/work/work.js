@@ -18,7 +18,6 @@ export const Work = () => {
     workCardNumberCss,
     workCardTextCss,
     workCardTextOverlayCss,
-    workCardLink,
   } = getWorkCss();
 
   return (
