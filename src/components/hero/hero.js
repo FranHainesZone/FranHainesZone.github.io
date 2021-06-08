@@ -31,11 +31,8 @@ export const Hero = () => {
               <div css={textWrapper}>
                 <h1 css={h1}>
                   Hi there, I'm Fran.{" "}
-                  <span
-                    role="img"
-                    aria-label="Cartoon image of woman with red hair."
-                  >
-                    👩🏻‍🦰
+                  <span role="img" aria-label="Orange heart.">
+                    🧡
                   </span>
                 </h1>
                 <h2 css={h2}>A Front-end Developer based in Bristol.</h2>
@@ -87,7 +84,10 @@ export const Hero = () => {
                   >
                     give me a hola
                   </a>
-                  . 👋🏻
+                  .{" "}
+                  <span role="img" aria-label="Waving hand.">
+                    👋🏻
+                  </span>
                 </p>
               </div>
 

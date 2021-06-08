@@ -40,7 +40,10 @@ export const Contact = () => {
               <p>
                 <a href="mailto:hello@franhaines.com">Send me an email</a> at
                 hello@franhaines.com or check out my social channels. Feel free
-                to have a stalk of some of my dev projects too. 👀{" "}
+                to have a stalk of some of my dev projects too.{" "}
+                <span role="img" aria-label="Eyes.">
+                  👀
+                </span>{" "}
               </p>
             </div>
 
