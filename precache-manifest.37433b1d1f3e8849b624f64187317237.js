@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/article-100-women-panel.a2897b0b.jpeg"
   },
   {
-    "revision": "ddb1d8a3969bee624746",
+    "revision": "6be3eda8abfb4573f662",
     "url": "/static/css/main.6991c52c.chunk.css"
   },
   {
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/static/media/article-learning-by-teaching.d603f8bf.jpg"
   },
   {
-    "revision": "ddb1d8a3969bee624746",
-    "url": "/static/js/main.ddb1d8a3.chunk.js"
+    "revision": "6be3eda8abfb4573f662",
+    "url": "/static/js/main.6be3eda8.chunk.js"
   },
   {
     "revision": "ec7f36a324fe4d6adc581e9549b63103",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.d64aa802.chunk.css"
   },
   {
-    "revision": "8cd9260f17a9cbfb891dccb4542abcbf",
+    "revision": "862fa746ef971998a7c45c6629abd777",
     "url": "/index.html"
   }
 ];
